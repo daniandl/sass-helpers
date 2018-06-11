@@ -5,9 +5,11 @@
 .clearfix {
   &:before,
   &:after {
-    content: " ";
+    content: ' ';
     display: table;
   }
 
-  &:after { clear: both; }
+  &:after {
+    clear: both;
+  }
 }
