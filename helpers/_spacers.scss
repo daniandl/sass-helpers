@@ -1,0 +1,65 @@
+$i: 0;
+
+@each $index, $space in $spacers {
+  // margin
+  .mt-#{$i} {
+    margin-top: $space !important;
+  }
+  .mr-#{$i} {
+    margin-right: $space !important;
+  }
+  .ml-#{$i} {
+    margin-left: $space !important;
+  }
+  .mb-#{$i} {
+    margin-bottom: $space !important;
+  }
+  .mx-#{$i} {
+    margin-left: $space !important;
+    margin-right: $space !important;
+  }
+  .my-#{$i} {
+    margin-top: $space !important;
+    margin-bottom: $space !important;
+  }
+  .ma-#{$i} {
+    margin: $space !important;
+  }
+
+  // padding
+  .pt-#{$i} {
+    margin-top: $space !important;
+  }
+  .pr-#{$i} {
+    margin-right: $space !important;
+  }
+  .pl-#{$i} {
+    margin-left: $space !important;
+  }
+  .pb-#{$i} {
+    margin-bottom: $space !important;
+  }
+  .px-#{$i} {
+    margin-left: $space !important;
+    margin-right: $space !important;
+  }
+  .py-#{$i} {
+    margin-top: $space !important;
+    margin-bottom: $space !important;
+  }
+  .pa-#{$i} {
+    margin: $space !important;
+  }
+
+  // increment
+  $i: $i + 1;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
