@@ -14,12 +14,8 @@
 .fw-bold {
   font-weight: bold;
 }
-
-.text-faded-5 {
-  opacity: 0.5;
-}
-.text-faded-3 {
-  opacity: 0.3;
+.fw-black {
+  font-weight: 900;
 }
 
 // transforms & styles
@@ -37,7 +33,7 @@
 }
 
 //
-// Text Controlls
+// Text Controls
 //
 
 .truncate {
@@ -45,10 +41,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .break-word {
   word-wrap: break-word;
 }
 .no-wrap {
-  white-space: nowrap !important;
+  white-space: nowrap;
 }
